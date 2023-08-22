@@ -1,0 +1,74 @@
+.flipkart {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view {
+  color: white;
+  background-color: blue;
+  border: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.search {
+  padding: 5px 100px;
+}
+.i {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.login {
+  border: white;
+  background-color: white;
+}
+
+.flipkart p:hover {
+  color: #2874f0;
+}
+.electronics {
+  padding: 50px 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+li a {
+  color: grey;
+  text-decoration: none;
+}
+li a span {
+  color: yellow;
+  font-weight: 900;
+}
+.ppp {
+  width: 130px;
+}
+footer {
+  background-color: #172337;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+footer ul {
+  font-size: 14px;
+}
+footer ul li {
+  margin-bottom: 10px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: auto;
+  padding: 40px 0px;
+}
+footer ul li:first-child {
+  color: #5c5353;
+}
+.wrapper > ul:nth-child(5),
+.wrapper > ul:nth-child(6) {
+  width: 250px;
+}
